@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(172, 10, 176);
+  background: linear-gradient(
+    143deg,
+    rgba(172, 10, 176, 1) 0%,
+    rgba(233, 128, 138, 1) 53%,
+    rgba(233, 157, 203, 1) 94%
+  );
+}
+
+.yellow {
+  background: rgb(120, 122, 4);
+  background: linear-gradient(
+    143deg,
+    rgba(120, 122, 4, 1) 0%,
+    rgba(164, 227, 26, 1) 46%,
+    rgba(244, 254, 0, 1) 82%
+  );
+}
+
+.blue {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    143deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(19, 31, 177, 1) 46%,
+    rgba(94, 121, 255, 1) 89%
+  );
+}
+
+.red {
+  background: rgb(87, 10, 26);
+  background: linear-gradient(
+    143deg,
+    rgba(87, 10, 26, 1) 0%,
+    rgba(181, 22, 40, 1) 50%,
+    rgba(255, 0, 32, 1) 89%
+  );
+}
+.main-container {
+  margin: auto;
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.tekst {
+  color: rgb(14, 14, 14);
+  font-size: 30px;
+}
+.btn--pressed {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}

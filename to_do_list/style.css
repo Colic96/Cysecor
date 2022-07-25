@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20 px;
+}
+html {
+  background-color: #d9d9d9;
+}
+.container {
+  width: 60%;
+  margin: auto;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #4741a6;
+  color: #313131;
+}
+form {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  width: 60%;
+}
+button {
+  width: 10%;
+}
+.new-task {
+  display: flex;
+  background-color: #9bbbfc;
+  border-bottom: 1px solid #687da6;
+}
+.new-task p {
+  width: 90%;
+}
+.remove {
+  justify-self: flex-end;
+}
+.done {
+  background-color: #707070;
+  text-decoration: line-through;
+  font-size: 15px;
+}
+label {
+  font-size: 25px;
+  font-style: italic;
+}

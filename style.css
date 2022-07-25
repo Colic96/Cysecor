@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 2.5s ease;
+}
+
+body {
+  background-color: #111d29;
+}
+
+header {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+.x {
+  display: none;
+}
+
+.links {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  padding: 6px;
+  background-color: #b1d237;
+  border-radius: 15px;
+}
+
+.link:visited,
+.link,
+.link:active {
+  color: #214c76;
+}
